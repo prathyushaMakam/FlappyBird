@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="bird_position_x">75dp</dimen>
+    <dimen name="bird_position_y">210dp</dimen>
+    <dimen name="rectangle_width">50dp</dimen>
+    <dimen name="ground_height">73dp</dimen>
+    <dimen name="rectangle_gap">120dp</dimen>
+
+</resources>

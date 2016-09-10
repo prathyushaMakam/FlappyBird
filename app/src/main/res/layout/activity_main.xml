@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.prathyusha.flappybirdpr.FlappyBirdActivity">
+
+    <com.prathyusha.flappybird.BirdAnimation
+        android:id="@+id/bird_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/bird_position_x"
+        android:layout_marginTop="@dimen/bird_position_y"
+        android:background="@anim/bird_flap"
+        android:contentDescription="@string/bird_description" />
+
+    <ImageView
+        android:id="@+id/bg_hint_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/hint_description"
+        android:src="@drawable/bg_hint" />
+
+    <com.prathyusha.flappybird.Rectangles
+        android:id="@+id/rectangles_view"
+        android:layout_width="@dimen/rectangle_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>
+

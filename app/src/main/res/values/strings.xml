@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Flappy Bird</string>
+    <string name="action_settings">Settings</string>
+    <string name="bird_description">Flappy Bird</string>
+    <string name="hint_description">Tap hint</string>
+</resources>
+
